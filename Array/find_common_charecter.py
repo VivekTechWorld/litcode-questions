@@ -13,11 +13,6 @@ class Solution:
 
         return prefix
 
-
-
-
-
-
 def main():
     strs = ["bella","label","roller"]
 
