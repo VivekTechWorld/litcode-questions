@@ -1,8 +1,10 @@
 class Solution:
     def searchInsert(self,nums,target):
+
         if nums[len(nums)-1] < target :
             return len(nums)+1;
         i=0;
+        
         while nums[i] <= target:
         
             if target == nums[i]:
